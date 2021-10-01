@@ -1335,6 +1335,14 @@
     "@tryghost/ignition-errors" "^0.1.0"
     lodash "^4.17.21"
 
+"@tryghost/errors@^0.2.16":
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-0.2.16.tgz#5000255aff99b3e07aa343c7f625f1475e55c5cf"
+  integrity sha512-iTUv25q/SqQMCsxEX3dlf6pT3QWIkAVeQ7OIf9lY9fBGLZpvriplTV361u7fQYuUvUcCDYqb30s5j/cYHWuJWg==
+  dependencies:
+    "@tryghost/ignition-errors" "^0.1.0"
+    lodash "^4.17.21"
+
 "@tryghost/helpers@1.1.52":
   version "1.1.52"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.52.tgz#e30bd367ea62d1b27e59abfa8e8ed8c3e072b74e"
@@ -1585,12 +1593,12 @@
     nodemailer-direct-transport "^3.3.2"
     nodemailer-stub-transport "^1.1.0"
 
-"@tryghost/package-json@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@tryghost/package-json/-/package-json-1.0.4.tgz#eaade11659660d2b155d64ad8d4d631fcff57a73"
-  integrity sha512-rdymLZE55zHNW0/1bO6dby4j2YFsLm4lBzv7rg1vV5UOxIhEvlmbl/1HssEmVa6FVVXCRZRhHxWS+6clkF/i+g==
+"@tryghost/package-json@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@tryghost/package-json/-/package-json-1.0.5.tgz#545850825f926a383b961d75380056455492dad6"
+  integrity sha512-i+CLfAHeeuKC68pgQ1iqhIySjifWeClD+8OsDNTNpdrHiDpid54CJXoa5iX1GN6XunXXuKKOu3q9tnd56droiw==
   dependencies:
-    "@tryghost/errors" "^0.2.15"
+    "@tryghost/errors" "^0.2.16"
     "@tryghost/tpl" "^0.1.5"
     bluebird "^3.7.2"
     fs-extra "^10.0.0"
